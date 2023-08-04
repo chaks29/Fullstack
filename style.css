@@ -15,6 +15,13 @@
     
 }
 
+.num1{
+    color:purple;
+    display: flex;
+    flex-direction:row;
+        
+}
+
 .grid_container{
     display: grid;
     border: 2px solid purple;
@@ -28,6 +35,7 @@
 .layout{
     float: left;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     margin-right: 100px;
     
@@ -36,4 +44,8 @@
 .items {
     flex-basis: 400px;
     border: solid white 5px;
+}
+
+.one{
+    flex-direction: column;
 }
